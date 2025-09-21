@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html prefix="og: https://ogp.me/ns#" class="mdui-theme-dark" data-theme="dark">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  <meta name="keywords" content="博客，网络安全">
+  <meta name="description" content="以平凡开始，以平凡结尾">
+  <meta name="author" content="ZENG YAN">
+  <meta name="generator" content="Hexo 7.3.0">
+    <meta name="description" content="什么是网络安全（Cybersecurity）？不同组织机构对网络安全（Cybersecurity或Cyber Security）的定义不尽相同。从目标上来说，网络安全主要用于保护网络、计算机、移动设备、应用程序及数据等资产免受网络攻击，避免造成数据泄露、业务中断等安全问题。网络钓鱼、勒索软件、社会工程攻击、中间人攻击等各类攻击手段层出不穷，对企业或组织可能导致数据泄露、业务中断、财务损失，对个人可">
+<meta property="og:type" content="article">
+<meta property="og:title" content="网络安全科普介绍">
+<meta property="og:url" content="http://example.com/2025/09/21/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E7%A7%91%E6%99%AE%E4%BB%8B%E7%BB%8D/index.html">
+<meta property="og:site_name" content="曾炎的博客">
+<meta property="og:description" content="什么是网络安全（Cybersecurity）？不同组织机构对网络安全（Cybersecurity或Cyber Security）的定义不尽相同。从目标上来说，网络安全主要用于保护网络、计算机、移动设备、应用程序及数据等资产免受网络攻击，避免造成数据泄露、业务中断等安全问题。网络钓鱼、勒索软件、社会工程攻击、中间人攻击等各类攻击手段层出不穷，对企业或组织可能导致数据泄露、业务中断、财务损失，对个人可">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/image1.png">
+<meta property="article:published_time" content="2025-09-21T07:51:48.000Z">
+<meta property="article:modified_time" content="2025-09-21T08:03:20.556Z">
+<meta property="article:author" content="ZENG YAN">
+<meta property="article:tag" content="博客，网络安全">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/image1.png">
+      <link rel="icon" href="">
+      <title>
+        
+          网络安全科普介绍 - 曾炎的博客
+              
+      </title>
+      
+<link rel="stylesheet" href="/css/site.css">
+
+      
+<link rel="stylesheet" href="/css/mdui_2.0.3/mdui.css">
+
+      <style>
+        /*禁用mdui对code的样式，因为它干扰了prism.js*/
+        .mdui-prose pre code {
+          background-color: transparent;
+          padding: 0px 0px;
+        }
+      </style>
+      
+<script src="/css/mdui_2.0.3/mdui.global.js"></script>
+
+      
+<script src="/fancybox/fancybox.umd.js"></script>
+
+      
+<link rel="stylesheet" href="/fancybox/fancybox.css">
+
+      
+<script src="/carousel/carousel.umd.js"></script>
+
+      
+<link rel="stylesheet" href="/carousel/carousel.css">
+
+      
+<link rel="stylesheet" href="/css/prism.css">
+
+          
+<link rel="stylesheet" href="/css/katex.min.css">
+
+            
+<link rel="stylesheet" href="/css/font-material-icon-filled/MaterialIconFilled.css">
+
+              <!-- Filled -->
+              <script>window.$=mdui.$</script>
+</head>
+
+  <body class="line-numbers">
+    <mdui-layout>
+      <mdui-top-app-bar>
+        <mdui-button-icon icon="menu" id="menu-btn">
+        </mdui-button-icon>
+        <mdui-top-app-bar-title>
+          曾炎的博客
+        </mdui-top-app-bar-title>
+        <div style="flex-grow: 1"></div>
+        
+      </mdui-top-app-bar>
+      <mdui-navigation-drawer close-on-overlay-click close-on-esc id="drawer">
+    <mdui-list>
+        
+            
+            <mdui-list-item rounded icon="home"
+                href="/"
+                
+                
+                rel="next">
+                Home
+            </mdui-list-item>
+            
+            
+            
+            <mdui-list-item rounded icon="folder"
+                href="/categories"
+                
+                
+                rel="next">
+                Categories
+            </mdui-list-item>
+            
+            
+            
+            <mdui-list-item rounded icon="bookmark"
+                href="/tags"
+                
+                
+                rel="next">
+                Tags
+            </mdui-list-item>
+            
+            
+            
+            <mdui-list-item rounded icon="archive"
+                href="/archives"
+                
+                
+                rel="next">
+                Archives
+            </mdui-list-item>
+            
+            
+            
+            <mdui-list-item rounded icon="info"
+                href="/about"
+                
+                
+                rel="next">
+                About
+            </mdui-list-item>
+            
+            
+    </mdui-list>
+</mdui-navigation-drawer>
+        <mdui-layout-main style="min-height: 800px;" id="main">
+          <div style="padding-left: 16px;padding-right: 16px;" id="content">
+            <mdui-card variant="filled" style="padding: 16px;width: 100%;">
+  <div class="mdui-prose post" id="post-all">
+    <h1 style="margin-bottom: 8px;">
+      网络安全科普介绍
+    </h1>
+    <span class="post-date">
+      <mdui-icon name="date_range" style="vertical-align: text-bottom;font-size: 18px;"></mdui-icon>
+      2025-09-21 15:51:48 &nbsp; <mdui-icon name="update"
+          style="vertical-align: text-bottom;font-size: 18px;"></mdui-icon>
+        2025-09-21 16:03:20
+    </span>
+    <br>
+    <span>
+        分类
+          
+              <br>
+      </span>
+      
+        
+          标签
+            
+                
+                  <!-- photos gallery -->
+                  
+                      <!-- content -->
+                      <h2 id="什么是网络安全（Cybersecurity）？"><a href="#什么是网络安全（Cybersecurity）？" class="headerlink" title="什么是网络安全（Cybersecurity）？"></a>什么是网络安全（Cybersecurity）？</h2><p>不同组织机构对网络安全（Cybersecurity或Cyber Security）的定义不尽相同。从目标上来说，网络安全主要用于保护网络、计算机、移动设备、应用程序及数据等资产免受网络攻击，避免造成数据泄露、业务中断等安全问题。<br>网络钓鱼、勒索软件、社会工程攻击、中间人攻击等各类攻击手段层出不穷，对企业或组织可能导致数据泄露、业务中断、财务损失，对个人可能导致隐私侵犯、个人财产损失。因此企业、组织或个人均有责任提升网络安全意识，实施网络安全措施，防患于未然。</p>
+<h2 id="为什么网络安全非常重要？"><a href="#为什么网络安全非常重要？" class="headerlink" title="为什么网络安全非常重要？"></a>为什么网络安全非常重要？</h2><p>随着数字化、云化进程的推进，企业及个人的重要数据都保存在计算机、服务器、虚拟机、移动设备等各种数字化系统中，而且这些系统大多数连接到互联网。网络攻击者比以往任何时候都更想渗透系统，进行数据窃取、敲诈勒索等恶意行为，从而谋取暴利。据统计，仅勒索软件这一种网络攻击，2023年至少75%的组织遭受过勒索攻击，全球勒索支付达10亿美元。关键基础设施、金融机构、政府和制造业等各行各业都面临着巨大的网络安全风险，无数企业、组织和个人遭受巨大损失。因此提升网络安全意识、落实网络安全措施刻不容缓。</p>
+<p>随着网络攻击事件、攻击手段的规模逐渐攀升，全球网络安全支出也在增加，Gartner预测到2026年全球网络安全支出将超过2600亿美元。全球各国都在积极制定网络安全指导，以帮助企业或组织实施有效的网络安全实践。由完善的网络安全政策、技术、流程、方法和工具组成的网络安全指导，可以显著降低企业、组织或个人成为网络攻击目标或受到损害的风险。</p>
+<p><strong>实施网络安全的主要好处包括：</strong></p>
+<ul>
+<li>防止未授权用户访问系统和数据，避免数据泄露，最大限度减少网络攻击对企业或组织业务、财务、声誉的影响。</li>
+<li>为最终用户和终端设备提供保护，避免身份盗用、隐私泄露等问题发生，减少对最终用户的影响。</li>
+<li>缩短安全事件发生后的业务恢复时间，事先制定的网络安全预案可以帮助企业或组织尽快处理安全事件、快速恢复业务。</li>
+<li>缓解不断加剧的网络威胁，网络安全技术及策略不断升级，与不断演进的攻击技术保持同步。</li>
+<li>法律法规遵从，企业或组织需要遵从网络安全相关的法律法规、准则和规范。例如，企业或组织制定的网络安全指导必须包含确保数据隐私的安全措施。</li>
+</ul>
+<h2 id="常见网络攻击有哪些？"><a href="#常见网络攻击有哪些？" class="headerlink" title="常见网络攻击有哪些？"></a>常见网络攻击有哪些？</h2><p>网络安全形势复杂，各种形式的网络攻击不断出现，紧跟网络攻击趋势，提升防攻击技术是网络安全的一项重要工作。以下介绍一些常见的网络攻击。<br><img src="/img/image1.png"></p>
+<h4 id="常见网络攻击"><a href="#常见网络攻击" class="headerlink" title="常见网络攻击"></a>常见网络攻击</h4><p><strong>恶意软件（Malware）</strong><br>专门为实施网络攻击，破坏用户系统而编写的软件，通常通过电子邮件附件或其他看起来合法的下载方式进行传播。用户计算机或其他终端运行恶意软件后，恶意软件进行窃取、加密、更改和删除数据以及监控用户行为等非法活动。<br>常见的恶意软件包括病毒、蠕虫、木马、间谍软件、勒索软件等。</p>
+<p><strong>勒索软件（Ransomware）</strong><br>勒索软件是一种特殊的恶意软件，它可以锁定用户终端或者对终端数据（如文档、邮件、数据库、源代码等）进行加密使用户无法访问。受害者需要支付一定数量的赎金，才有可能重新取得数据控制权。<br>如果没有有效的数据备份和灾难恢复计划，不支付赎金是非常困难的。</p>
+<p><strong>网络钓鱼（Phishing）</strong><br>网络钓鱼又称钓鱼式攻击，是社会工程的一种。攻击者伪装成可信发件人，向受害者发送具有欺骗性质的电子邮件或短信，诱导受害者提供敏感数据、点击恶意链接、下载恶意软件或将资产错误地转移给他人。</p>
+<p><strong>高级持续性威胁（APT）</strong><br>高级持续性威胁（Advanced Persistent Threat，APT），又叫高级长期威胁，是一种复杂的、持续的网络攻击。APT攻击比传统攻击的定制程度和复杂程度更高，攻击者有组织有目的，放长线、钓大鱼，持续监控目标、寻找突破口。一旦攻击得手，往往会给攻击目标造成巨大的经济损失或政治影响。</p>
+<p><strong>中间人攻击（MITM）</strong><br>中间人攻击（Man-in-the-Middle Attack，MITM），是一种会话劫持攻击。攻击者作为中间人，劫持通信双方会话并操纵通信过程，而通信双方并不知情，从而达到窃取信息或冒充访问的目的。中间人攻击是一个统称，具体的攻击方式有很多种，例如Wi-Fi仿冒、邮件劫持、DNS欺骗、SSL劫持等。中间人攻击常用于窃取用户登录凭据、电子邮件和银行账户等个人信息，是对网银、网游、网上交易等在线系统极具破坏性的一种攻击方式。</p>
+<p><strong>SQL注入（SQL injection）</strong><br>SQL注入是一种代码注入技术，也是最危险的Web应用程序漏洞之一。攻击者在用户输入字段中插入恶意代码，欺骗数据库执行SQL命令，从而窃取、篡改或破坏各类敏感数据。</p>
+<p><strong>DDoS攻击</strong><br>DDoS（Distributed Denial of Service）分布式拒绝服务攻击，是指攻击者控制分布于互联网各处的大量僵尸主机向攻击目标发送大量垃圾报文或者对目标服务器发起过量访问，耗尽攻击目标所在网络的链路带宽资源、会话资源或业务系统处理性能，导致其无法响应正常用户的服务请求。<br>DDoS攻击简单有效，因此频繁发生，给攻击目标造成了巨大的经济和品牌损失。</p>
+<p><strong>内部威胁（Insider Threats）</strong><br>内部威胁是指来自员工、承包商、合作伙伴等内部授权用户的威胁，这些用户有意或无意滥用其访问权限，造成数据泄露或账户被攻击者劫持。内部威胁容易被忽视，而且可能绕过防火墙等安全设备的检测。但实际上内部恶意攻击事件发生比例也非常高，需要企业或组织重点关注。</p>
+<p><strong>网络安全有哪些类型？哪些领域？</strong><br>网络安全是涵盖多领域的交叉学科，以下列举常见的网络安全领域，不同领域间可能有重叠。</p>
+<p><strong>网络安全（Network Security）</strong><br>这里的Network Security是Cybersecurity的子集，主要关注针对网络设备、网络设备间通信的攻击。Network Security设备及系统通常部署在网络边界，是网络安全的第一道防线。当前来自互联网的攻击，已经成为主要的网络攻击来源，需要使用防火墙、入侵防御、防病毒、文件过滤等技术阻断恶意行为。</p>
+<p><strong>应用安全（Application Security）</strong><br>应用安全用于保护软件及应用程序免受攻击，防止对应用程序和数据进行未授权访问。应用安全设备或系统更针对某类应用，例如Web应用防火墙（Web Application Firewall，WAF）用于保护Web应用，数据库防火墙用于保护数据库应用。另外应用安全还包括应用程序开发过程中的安全措施，避免因为程序编写缺陷而引入漏洞。同时，应用安全还包括定期更新应用程序、进行漏洞评估等。</p>
+<p><strong>端点安全（Endpoint Security）</strong><br>端点安全用于保护计算机、笔记本电脑、手机等连接到网络的终端设备免受网络攻击。端点安全设备或系统通常部署在终端侧，常用技术手段包括网络接入控制（Network Access Control，NAC）、端点检测和响应（Endpoint Detection and Response，EDR）、防网络钓鱼、防病毒、防勒索软件等。</p>
+<p><strong>数据安全（Data Security）</strong><br>数据安全用于避免数据遭到未授权访问、泄露、修改及破坏，保护数据的机密性、完整性和可用性。保护的数据既包括静态存储的数据，也包括传输中的数据。常用技术手段包括访问控制、数据加密、数据隔离、数据备份、数据泄漏防护（Data Loss Prevention，DLP）等。</p>
+<p><strong>云安全（Cloud Security）</strong><br>云安全用于保护基于云的服务和资产，既包括云服务提供商的基础设施安全，也包括用户的应用程序、数据等的安全。整体的云安全由云服务提供商和云用户责任共担，不同的云服务模式（SaaS、PaaS和IaaS）下两者的责任分工不同。云安全设备或系统部署在云端，常用技术手段包括基础设施可信、网络安全、数据安全、用户访问控制等。</p>
+<p><strong>移动安全（Mobile Security）</strong><br>随着移动办公的普及，手机、平板电脑等移动设备可以访问企业数据，如果移动设备存在安全风险将造成企业数据、应用程序及系统遭到攻击。移动安全包括保护移动设备安全、控制移动设备的数据访问方式和权限等内容。</p>
+<p><strong>身份安全（Identity Security）</strong><br>身份安全用于保护用户访问凭据等身份信息，对用户进行认证并授权特定访问权限，监控用户的访问行为。身份安全可以防止未经授权的访问，发现与身份相关的潜在风险，并在发生攻击时限制非法用户横向移动。<br>有效的网络安全措施涉及人员、架构和技术的协调统一。</p>
+<h2 id="网络安全如何工作、最佳实践"><a href="#网络安全如何工作、最佳实践" class="headerlink" title="网络安全如何工作、最佳实践"></a>网络安全如何工作、最佳实践</h2><h2 id="网络安全的组成、如何工作"><a href="#网络安全的组成、如何工作" class="headerlink" title="网络安全的组成、如何工作"></a>网络安全的组成、如何工作</h2><h2 id="有效的网络安全措施涉及人员、架构和技术的协调统一。"><a href="#有效的网络安全措施涉及人员、架构和技术的协调统一。" class="headerlink" title="有效的网络安全措施涉及人员、架构和技术的协调统一。"></a>有效的网络安全措施涉及人员、架构和技术的协调统一。</h2><p><strong>人员</strong><br>对人员进行安全威胁趋势普及、避免网络攻击最佳实践的培训，是企业或组织构建网络安全指导的重要一环。只有人员提升了网络安全意识，才能最大化避免遭受网络攻击。</p>
+<p><strong>架构</strong><br>面对复杂的网络环境，企业或组织需要有稳固的网络安全架构，基于此架构为整个IT系统定义全面的威胁检测、威胁响应以及攻击事后恢复措施。孤立的单点方案或措施，面对高级未知威胁难以为继。<br>例如，美国NIST（National Institute of Standards and Technology，国家标准及技术研究院）发布的网络安全框架IPDRR，就是当前企业与组织广泛遵循的框架。IPDRR分别代表识别（Identify）、防护（Protect）、检测（Detect）、响应（Respond）、恢复（Recover），是该框架定义的5大核心能力。IPDRR从面向安全防护的模型转化为面向预防和业务连续性管理的模型，变被动为主动，最终提供自适应的网络安全能力。</p>
+<p><strong>技术</strong><br>使用具体的网络安全技术及设备保护网络、系统和数据，例如防火墙、防病毒软件、入侵防御系统、终端安全系统、加密技术等。另外不管使用了多么丰富的技术及设备，及时更新升级都非常重要，包括对系统及软件的升级、打补丁、更新安全设备的知识库等。这样安全防护才能持续有效。</p>
+<p>以上简要介绍了网络安全的组成，当前并没有统一的网络安全评估体系，每个企业或组织需要根据实际情况灵活制定网络安全指导。Gartner在《4 Metrics That Prove Your Cybersecurity Program Works》一文中提出CARE（Consistency，Adequacy，Reasonableness，Effectiveness）框架，以帮助企业或组织评估其网络安全指导的可信度和防御性。</p>
+<ul>
+<li>Consistency（一致性）：评估安全控制是否在整个企业或组织内持续一致地运行。</li>
+<li>Adequacy（充分性）：评估安全控制是否满足业务需求。</li>
+<li>Reasonableness（合理性）：评估安全控制是否适当的、公平的和适度的。</li>
+<li>Effectiveness（有效性）：评估安全控制是否产生预期结果。</li>
+</ul>
+<p>Gartner建议安全和风险管理的领导者，根据此框架制定20~30个度量指标，将网络安全标准转化为非技术受众容易理解的内容。</p>
+<h2 id="免受网络攻击的的最佳实践"><a href="#免受网络攻击的的最佳实践" class="headerlink" title="免受网络攻击的的最佳实践"></a>免受网络攻击的的最佳实践</h2><p>遵循以下网络安全最佳实践可以显著降低企业、组织及个人遭受网络攻击的风险。</p>
+<ul>
+<li><strong>及时更新操作系统及软件（包括防病毒软件）</strong>：有助于修复系统漏洞，抵御已知威胁。</li>
+<li><strong>定期备份数据</strong>：当系统被破坏或发生勒索攻击时，可以使用备份数据维持业务连续性。</li>
+<li><strong>使用增强密码</strong>：强制设置复杂度高的密码，降低未授权访问风险。</li>
+<li><strong>部署IAM系统</strong>：身份与访问管理系统IAM包含MFA（Multi-Factor Authentication，多因子认证），并且定义每个用户的角色和访问权限。</li>
+<li><strong>持续监控和审计</strong>：对整个IT系统及资产进行全面监控和审计，包括权限设置审计、资产盘点、资产漏洞扫描等，持续监控攻击面、识别潜在风险。</li>
+<li><strong>落地零信任架构</strong>：零信任原则是安全访问控制的最有效方法，持续验证、动态授权极大降低资产被攻击的风险。</li>
+<li><strong>网络安全培训</strong>：提升人员网络安全意识，不打开未知来源的邮件，不轻易点击不明邮件中的链接等，预防网络钓鱼发生。</li>
+</ul>
+<h2 id="网络安全挑战及趋势"><a href="#网络安全挑战及趋势" class="headerlink" title="网络安全挑战及趋势"></a>网络安全挑战及趋势</h2><p>不断变化的攻击手段、不断演进的IT环境是网络安全面临的主要挑战。</p>
+<ul>
+<li>攻击者不断利用新技术发明新的攻击攻击方法，人工智能的兴起在推动业务发展的同时也给攻击者者带来的新的机会。</li>
+<li>远程办公、自带设备（BYOD）的普及，为企业或组织带来新的安全风险。</li>
+<li>IoT设备急剧增加，不安全的设备容易被攻击者劫持。</li>
+<li>部分IT资源转移至云端，网络边缘的不断扩展以及云和本地混合部署的网络环境使企业网络架构日趋复杂。企业面临孤立运行的安全产品和工具无法协同工作的严峻挑战。</li>
+<li>网络安全专家及从业人员缺口大，无法应对数量庞大的攻击。</li>
+</ul>
+<p>为应对上述问题，利用人工智能和自动化技术对抗网络攻击是网络安全的发展趋势。基于AI的高级数据分析技术开始广泛应用于网络威胁检测，不断发展的机器学习算法，可以提供对未知新型威胁的快速检测。在人工智能技术的推动下，网络安全技术将变得更自动化、更自适应化。当然人工智能的兴起也引入了新的攻击面，甚至成为攻击者的网络犯罪工具，网络安全需要应对这一变革。</p>
+<p>另外，SASE（Secure Access Service Edge，安全访问服务边缘）作为一种全新网络安全模型，整合软件定义的广域网（SD-WAN）与各种安全功能，为企业提供可订阅的服务。SASE使得企业能够更有效地管理分布式的网络资源和安全策略，确保无论用户身处何地，都能享受到安全、高效的访问体验。</p>
+
+  </div>
+</mdui-card>
+<script>
+  const $ = mdui.$;
+  $("#post-all").find("img").each((index, ele) => {
+    $(ele).replaceWith(`<a data-src="${$(ele).prop("src")}" class="fancybox-enabled" data-fancybox="picture" data-caption="${$(ele).prop("alt")}">${ele.outerHTML}</a>`)
+  });
+  Fancybox.bind(".fancybox-enabled", {
+    on: {
+      ready: () => {
+        $("mdui-top-app-bar").addClass("invisible")
+      }, close: () => {
+        $("mdui-top-app-bar").removeClass("invisible")
+      }
+    }
+  });
+  
+</script>
+
+    
+                    
+              <br>
+              <span></span>
+          </div>
+        </mdui-layout-main>
+    </mdui-layout>
+    
+          <script>
+            mdui.setColorScheme('#4fd8eb');
+            const navigationDrawer = document.querySelector("#drawer");
+            const mainlayout = document.querySelector("#main");
+            const breakpointCondition = mdui.breakpoint();
+            if (breakpointCondition.up('sm')) {
+              if (localStorage.getItem('navigationDrawer') == null) {
+                if("true"=="true")localStorage.setItem('navigationDrawer', "true");
+              }
+              if("true"=="true")navigationDrawer.setAttribute("open", (localStorage.getItem('navigationDrawer') == "true" ? true : false))
+            }
+            const menuBtn = document.querySelector("#menu-btn");
+            menuBtn.addEventListener("click", () => {
+              navigationDrawer.open = !navigationDrawer.open;
+              if("true"=="true")localStorage.setItem('navigationDrawer', navigationDrawer.open.toString());
+            });
+            const searchBtn = document.querySelector("#search-dlg-btn");
+            searchBtn.addEventListener("click", () => {
+              document.querySelector("#search-dlg").open = true;
+            });
+          </script>
+          
+<script src="/js/prism.js"></script>
+
+  </body>
+
+</html>
