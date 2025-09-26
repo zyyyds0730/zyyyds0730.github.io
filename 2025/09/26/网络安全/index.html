@@ -8,20 +8,22 @@
   <meta name="author" content="ZENG YAN">
   <meta name="generator" content="Hexo 7.3.0">
     <meta name="description" content="以平凡开始，以平凡结尾">
-<meta property="og:type" content="website">
-<meta property="og:title" content="曾炎的博客">
-<meta property="og:url" content="http://example.com/archives/2025/09/index.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="title">
+<meta property="og:url" content="http://example.com/2025/09/26/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/index.html">
 <meta property="og:site_name" content="曾炎的博客">
 <meta property="og:description" content="以平凡开始，以平凡结尾">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-09-26T10:26:19.833Z">
+<meta property="article:modified_time" content="2025-09-26T10:26:20.400Z">
 <meta property="article:author" content="ZENG YAN">
 <meta property="article:tag" content="博客，网络安全">
 <meta name="twitter:card" content="summary">
       <link rel="icon" href="">
       <title>
         
-                曾炎的博客
-                  
+          title - 曾炎的博客
+              
       </title>
       
 <link rel="stylesheet" href="/css/site.css">
@@ -111,7 +113,7 @@
             
             <mdui-list-item rounded icon="archive"
                 href="/archives"
-                active
+                
                 
                 rel="next">
                 归档
@@ -132,75 +134,53 @@
 </mdui-navigation-drawer>
         <mdui-layout-main style="min-height: 800px;" id="main">
           <div style="padding-left: 16px;padding-right: 16px;" id="content">
-            <div class="mdui-prose">
+            <mdui-card variant="filled" style="padding: 16px;width: 100%;">
+  <div class="mdui-prose post" id="post-all">
+    <h1 style="margin-bottom: 8px;">
+      title
+    </h1>
+    <span class="post-date">
+      <mdui-icon name="date_range" style="vertical-align: text-bottom;font-size: 18px;"></mdui-icon>
+      2025-09-26 10:26:19 &nbsp; <mdui-icon name="update"
+          style="vertical-align: text-bottom;font-size: 18px;"></mdui-icon>
+        2025-09-26 10:26:20
+    </span>
+    <br>
+    <span>
+        分类
+          
+              <br>
+      </span>
+      
+        
+          标签
+            
+                
+                  <!-- photos gallery -->
+                  
+                      <!-- content -->
+                      
+  </div>
+</mdui-card>
+<script>
+  const $ = mdui.$;
+  $("#post-all").find("img").each((index, ele) => {
+    $(ele).replaceWith(`<a data-src="${$(ele).prop("src")}" class="fancybox-enabled" data-fancybox="picture" data-caption="${$(ele).prop("alt")}">${ele.outerHTML}</a>`)
+  });
+  Fancybox.bind(".fancybox-enabled", {
+    on: {
+      ready: () => {
+        $("mdui-top-app-bar").addClass("invisible")
+      }, close: () => {
+        $("mdui-top-app-bar").removeClass("invisible")
+      }
+    }
+  });
   
-  <h1>归档</h1>
-  <script>
-    let title = document.getElementsByTagName('title')[0];
-    title.textContent="归档 - 曾炎的博客"
 </script>
-  
-                    <span>2 篇文章 </span>
-</div>
-<br>
 
-<mdui-card clickable variant="filled" href="/2025/09/26/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/" 
-    style="width:100%;">
     
-    <div class="mdui-prose" style="padding: 16px;">
-        <h1 style="margin-bottom: 8px;">
-            title
-        </h1>
-        <span class="post-date">
-            <mdui-icon name="date_range" style="vertical-align: text-bottom;font-size: 18px;"></mdui-icon>
-            2025-09-26 10:26:19 &nbsp; <mdui-icon name="update"
-                    style="vertical-align: text-bottom;font-size: 18px;"></mdui-icon>
-                2025-09-26 10:26:20
-        </span>
-        <br>
-        <span>分类 
-            </span>
-            
-                <span>| 标签 </span>
-                            
-        
-                <p>
                     
-                                
-                                    
-                </p>
-    </div>
-</mdui-card>
-
-<mdui-card clickable variant="filled" href="/2025/09/21/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E7%A7%91%E6%99%AE%E4%BB%8B%E7%BB%8D/" 
-    style="width:100%;">
-    
-    <div class="mdui-prose" style="padding: 16px;">
-        <h1 style="margin-bottom: 8px;">
-            网络安全科普介绍
-        </h1>
-        <span class="post-date">
-            <mdui-icon name="date_range" style="vertical-align: text-bottom;font-size: 18px;"></mdui-icon>
-            2025-09-21 15:51:48 &nbsp; <mdui-icon name="update"
-                    style="vertical-align: text-bottom;font-size: 18px;"></mdui-icon>
-                2025-09-26 10:27:28
-        </span>
-        <br>
-        <span>分类 
-            </span>
-            
-                <span>| 标签 </span>
-                            
-        
-                <p>
-                    
-                                什么是网络安全（Cybersecurity）？不同组织机构对网络安全（Cybersecurity或Cyber Security）的定义不尽相同。从目标上来说，网络安全主要用于保护网络、计算机、移...
-                                    
-                </p>
-    </div>
-</mdui-card>
-
-
               <br>
               <span></span>
           </div>
